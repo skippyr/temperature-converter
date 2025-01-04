@@ -1,0 +1,12 @@
+[package]
+name = "temperature-converter"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+strip = "symbols"
+lto = "fat"
+panic = "abort"
+
+[dependencies]
+eframe = "0.30.0"
