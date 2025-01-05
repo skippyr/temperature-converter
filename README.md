@@ -56,7 +56,7 @@ cargo build --release;
 - Run the app.
 
 ```zsh
-target/release/temperature-converter
+target/release/temperature-converter;
 ```
 
 - If you want, add it to your `PATH` environment variable for easy access.
