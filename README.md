@@ -50,7 +50,7 @@ cd temperature-converter;
 - Build the app using `cargo`.
 
 ```zsh
-cargo build --release;
+cargo b -r;
 ```
 
 - Run the app.
